@@ -1,0 +1,145 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    top: 20px;
+
+}
+
+.center {
+    display: block;
+
+    width: 35%;
+
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+
+    top: 20px;
+    right: 18px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.left img {
+    height: 35px;
+    width: 124px;
+    filter: invert(100%);
+
+}
+
+.logo {
+    color: white;
+    padding-left: 3px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* .btn { 
+    background: black;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: 1px grey solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    /* text-decoration: underline; 
+}*/
+
+/* .btn:hover { */
+
+
+
+/* } */
+
+.type {
+    border: 1px grey dotted;
+}
+
+.con {
+    color: white;
+    position: absolute;
+    left: 420px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 480px;
+    top: 205px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 68px;
+    color: white;
+    border: 1px solid white;
+
+
+}
+
+.lab {
+    color: white;
+}
+
+.tbl {
+    position: absolute;
+    bottom: 15px;
+}
+
+.card {
+    width: 15rem;
+    position: absolute;
+    left: 100px;
+    top: 201px;
+}
+
+.btnn {
+    background: black;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: 1px grey solid;
+    border-radius: 10px;
+
+}
+
+.btnn:hover {
+    color: rgb(48, 45, 45);
+}
+
+/* .card {
+    box-shadow: 10px 23px yellow;
+} */
